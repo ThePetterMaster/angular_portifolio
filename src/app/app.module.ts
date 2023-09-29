@@ -9,6 +9,8 @@ import { ButtonModule } from 'primeng/button';
 
 import { MenuItem } from 'primeng/api';
 import { TabMenuModule } from 'primeng/tabmenu';
+import { MenubarModule } from 'primeng/menubar';
+import { CardModule } from 'primeng/card';
 
 
 @NgModule({
@@ -20,7 +22,9 @@ import { TabMenuModule } from 'primeng/tabmenu';
     AppRoutingModule,
     BrowserAnimationsModule,
     ButtonModule,
-    TabMenuModule
+    TabMenuModule,
+    MenubarModule,
+    CardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

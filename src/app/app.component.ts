@@ -21,10 +21,10 @@ export class AppComponent {
 
     this.items = [
       { label: 'Início', icon: 'pi pi-fw pi-home' },
-      { label: 'Sobre mim', icon: 'pi pi-fw pi-calendar' },
-      { label: 'Projetos', icon: 'pi pi-fw pi-pencil' },
-      { label: 'Habilidades', icon: 'pi pi-fw pi-file' },
-      { label: 'Settings', icon: 'pi pi-fw pi-cog' }
+      { label: 'Sobre mim', icon: 'pi pi-fw pi-user' },
+      { label: 'Projetos', icon: 'pi pi-fw pi-book' },
+      { label: 'Habilidades', icon: 'pi pi-fw pi-list' }
+  
   ];
 
   this.activeItem = this.items[0];
